@@ -1,0 +1,13 @@
+{
+  "addons": {
+    "custos@myicons.link": {
+      "updates": [
+        {
+          "version": "2026.10.0.2931651",
+          "update_link": "https://vidario75.github.io/custos-pubblico/firefox/custos-firefox-2026.10.0.2931651.xpi",
+          "update_hash": "sha256:3f4f858b78537cdfdb9df37aa9345ab91c999136f74821532bb116b87f060f06"
+        }
+      ]
+    }
+  }
+}
