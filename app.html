@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Le mie app</title>
+<style>
+  :root { --text: #1b2029; --muted: #5a6270; --link: #175ddc; --card: #f3f5f8; --border: #dde1e7; }
+  @media (prefers-color-scheme: dark) {
+    :root { --text: #e6e9ee; --muted: #a3abb8; --link: #7aa7ff; --card: #1f242c; --border: #333a45; }
+    body { background: #14181e; }
+  }
+  body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; max-width: 680px; margin: 48px auto; padding: 0 16px; color: var(--text); }
+  a { color: var(--link); }
+  h2 { margin: 0 0 4px; font-size: 1.15rem; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; margin: 16px 0; }
+  .card p { margin: 4px 0; }
+  .note { color: var(--muted); font-size: 0.92rem; }
+  .button { display: inline-block; margin: 8px 12px 4px 0; padding: 8px 16px; border-radius: 8px; background: var(--link); color: #fff; text-decoration: none; font-weight: 600; }
+  .button.secondary { background: transparent; color: var(--link); border: 1px solid var(--link); }
+  .soon { display: inline-block; margin: 8px 0 4px; color: var(--muted); font-weight: 600; }
+</style>
+</head>
+<body>
+<h1>Le mie app</h1>
+<p>App per Mac firmate e notarizzate. I download funzionano solo se in questo browser sei collegato a
+<a href="https://github.com/login">GitHub</a> con l'account vidario75: per chiunque altro i link danno errore.</p>
+<p class="note">Dopo il download: apri lo zip e trascina l'app in <b>Applicazioni</b>. Per aggiornare, scarica di nuovo e sostituisci: le impostazioni restano.</p>
+
+<div class="card">
+  <h2>Mac Mouse Fix</h2>
+  <p>Versione personale (ramo dario-custom) di <a href="https://macmousefix.com">Mac Mouse Fix</a> di Noah Nuebling: finestre dell'app con la rotella, zone dello schermo, rotella su/giù.</p>
+  <a class="button" href="https://github.com/vidario75/app-personali/releases/download/mac-mouse-fix/MacMouseFix.zip">Scarica</a>
+  <p class="note">Al primo avvio attiva l'app e dai il permesso di Accessibilità all'helper. Le impostazioni sono in
+  <code>~/Library/Application Support/com.dario.mac-mouse-fix/config.plist</code>.</p>
+</div>
+
+<div class="card">
+  <h2>Custos</h2>
+  <p>Gestore di password di famiglia. Su Mac, iPhone e iPad si installa con TestFlight; per Windows, Android e i browser c'è la sua pagina.</p>
+  <a class="button secondary" href="./">Pagina di Custos</a>
+</div>
+
+<div class="card">
+  <h2>MailBar</h2>
+  <p>Client Gmail nella barra dei menu.</p>
+  <span class="soon">Presto disponibile</span>
+</div>
+
+<div class="card">
+  <h2>Clippo</h2>
+  <p>Gestore degli appunti: testo, link, immagini e file, con cartelle e pannello rapido da tastiera.</p>
+  <span class="soon">Presto disponibile</span>
+</div>
+
+<div class="card">
+  <h2>WallpaperSync</h2>
+  <p>Fa ruotare gli sfondi sui due monitor, con immagini singole o panoramiche divise tra i due schermi.</p>
+  <span class="soon">Presto disponibile</span>
+</div>
+
+<p class="note"><a href="https://github.com/vidario75/app-personali/releases">Tutte le versioni pubblicate</a></p>
+</body>
+</html>
